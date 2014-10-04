@@ -1,18 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="portfolioApp">
+
+<!-- HEAD SECTION -->
 <head>
 	<title>Angela Li</title>
-</head>
+	<!-- Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.20/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"></link>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 	<!-- Personal Links -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<script type="text/javascript" src="assets/js/script.js"></script>
-<body>
-	<div class="project">
-		<div class="center" id="about-me">
-			Fourth-year Computer Science Major at UC Irvine, with experience in computer vision, web development, and providing women more opportunities to develop their coding skills.
+</head>
+<!-- END HEAD SECTION -->
 
-			Dedicated to combining art (especially dance) and technology through multiple digital mediums.
+
+<!-- BODY SECTION -->
+<body>
+	<div ng-controller="ProjectCtrl">
+		<!-- Individual Project Div -->
+		{{ test }}
+		<div class="project">
+			<div class="center" id="about-me">
+				Fourth-year Computer Science Major at UC Irvine, with experience in computer vision, web development, and providing women more opportunities to develop their coding skills.
+
+				Dedicated to combining art (especially dance) and technology through multiple digital mediums.
+				lkdfjlkasdfj
+			</div>
 		</div>
+		<!-- End Individual Project Div -->
 	</div>
 </body>
+<!-- END BODY SECTION -->
+
 </html>
